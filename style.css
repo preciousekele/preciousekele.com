@@ -37,7 +37,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 150px;
+    width: 100px;
     margin-left: -50px;
 }
 nav ul li{
@@ -180,7 +180,7 @@ nav ul li a:hover::after{
 }
 .services-list div:hover{
     background: blue;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 /* portfolio */
 #portfolio{
@@ -289,8 +289,8 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: blue;
-    transform: translateY(-5px);
+    color: rgb(72, 72, 106);
+
 }
 .btn.btn2{
     display: inline-block;
@@ -320,9 +320,10 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background-color: #080808;
+    background-color: #000000;
     font-weight: 300;
     margin-top: 200px;
+    margin-bottom: -100px;
 }
 /* css for small screens */
 nav .fas{
@@ -353,7 +354,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #021247;
+        background: rgb(5, 2, 27);
         position: fixed;
         top: 0;
         right: -200px;
