@@ -48,7 +48,7 @@ nav ul li{
 nav ul li a{
   color: #fff;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   position: relative;
 }
 nav ul li a::after{
@@ -110,7 +110,7 @@ nav ul li a:hover::after{
 }
 .tab-links {
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 16.5px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
@@ -132,9 +132,12 @@ nav ul li a:hover::after{
   list-style: none;
   margin: 10px 0;
 }
+.tab-contents ul li {
+  font-size: 13px;
+}
 .tab-contents ul li span{
   color: blue;
-  font-size: 14px;
+  font-size: 17px;
 }
 .tab-contents{
   display: none;
