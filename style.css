@@ -55,7 +55,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: blue;
+  background: rgb(5, 5, 125);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -92,7 +92,7 @@ nav ul li a:hover::after{
   flex-basis: 35%;
 }
 .about-col-1 img{
-  width: 100%;
+  width: 80%;
   border-radius: 15px;
 }
 .about-col-2{
@@ -136,7 +136,7 @@ nav ul li a:hover::after{
   font-size: 13px;
 }
 .tab-contents ul li span{
-  color: blue;
+  color: rgb(13, 13, 180);
   font-size: 17px;
 }
 .tab-contents{
@@ -297,7 +297,7 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
   display: inline-block;
-  background: #29355e;
+  background: #000002;
 }
 .contact-right form{
   width: 100%;
